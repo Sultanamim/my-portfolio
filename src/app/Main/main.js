@@ -1,10 +1,14 @@
 import React from 'react';
-import Header from '../Header/header';
+import Body from '../Body/Body';
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 
 export default function Main() {
   return (
     <div className='main'>
-        <Header />
+      <Header />
+      <Body />
+      <Footer />
     </div>
   )
 }
